@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
 @import 'config';
 
 * {
@@ -11,11 +12,13 @@ body {
     font-weight: 500;
     padding: 5% 7.5%;
     background-color: $Light-Grayish-Blue;
+    font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     padding-bottom: 5px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 p {
