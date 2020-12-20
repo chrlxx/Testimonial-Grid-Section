@@ -15,6 +15,11 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
+    padding-bottom: 5px;
+}
+
+p {
+    line-height: 18.5px;
 }
 
 ul, li {
@@ -34,7 +39,9 @@ main {
         padding: 27.5px;
         border-radius: 10px;
         background-repeat: no-repeat;
-        background-position: 80% 0%; 
+        background-position: 80% 0%;
+        box-shadow: 0 8px 6px -6px rgba(128, 128, 128, 0.385);
+
 
         li:first-child {
             font-weight: 600;
@@ -76,7 +83,6 @@ main {
 .card5 {
     grid-column: 4/5;
     grid-row: 1/3;
-
 }
 
 
@@ -100,4 +106,14 @@ main {
     }
 }
 
+
+.attribution { 
+    margin: 25px;
+    font-size: 11px;
+    text-align: center;
+    
+    a { 
+        color: hsl(228, 45%, 44%); 
+    }
+}
 @import 'media';
